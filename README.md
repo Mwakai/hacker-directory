@@ -39,16 +39,24 @@ contributors/
   your-username/
     ...
   manifest.json   ← list of contributor usernames
+  people.json     ← generated: all card.json files bundled into one array
 ```
 
-The homepage (`index.html`) reads `contributors/manifest.json`, fetches
-each listed contributor's `card.json`, and builds the grid dynamically —
-no build step, no framework, just static files GitHub Pages can serve
-as-is.
+The homepage (`index.html`) fetches `contributors/people.json` — a single
+bundled file containing every contributor's card data — and builds the grid
+dynamically. No build step runs in the browser, no framework; still just
+static files GitHub Pages can serve as-is.
+
+`people.json` itself is generated automatically: a GitHub Action
+(`.github/workflows/people-sync.yml`) runs `.github/scripts/build-people.js`
+whenever `manifest.json` finishes syncing, reads every contributor's
+`card.json`, and commits the combined file back to the repo. Contributors
+never edit `people.json` directly — it's always derived from the individual
+`card.json` files.
 
 Every PR gets automatically checked (valid `card.json`, correct folder
 scope, a quick flagged-content/image scan) by a GitHub Action — see
-[`.github/workflows/pr-check.yml`](.github/workflows/pr-check.yml).
+[`.github/workflows/pr-check.yml`](https://github.com/TalenMud/hacker-directory/blob/main/.github/workflows/pr-check.yml).
 Merging itself is manual: a maintainer reviews and merges each PR by
 hand rather than auto-merging.
 

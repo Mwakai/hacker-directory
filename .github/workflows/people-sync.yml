@@ -1,34 +1,30 @@
 name: Sync people.json
 
-# Keeps contributors/people.json in step with manifest.json + each card.json,
-# so the homepage's single fetch never goes stale. Push uses GITHUB_TOKEN,
-# and pushes made with that token don't start new workflow runs, so this
-# doesn't retrigger itself.
+# Runs after sync-manifest finishes, not directly on push.
+# manifest.json to know which contributors to bundle, so it must always run
+# AFTER manifest.json is settled — running both independently on the same
+# contributors/** push risked people-sync reading a stale manifest.
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - "contributors/**"
-  # So a maintainer can run it on demand — handy the first time, since
-  # merging this workflow doesn't touch contributors/ and so won't trigger it.
+  workflow_run:
+    workflows: ["Sync contributors manifest"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
   contents: write
 
-# Two merges close together would otherwise race each other to push. Queue the
-# runs instead of cancelling them, so the second one sees the first one's work.
 concurrency:
   group: sync-people
   cancel-in-progress: false
 
 jobs:
   sync:
+    # Only proceed if sync-manifest actually succeeded (or this was a manual
+    # dispatch, which has no workflow_run context to check).
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:
-      # `ref: main` rather than the commit that triggered the run: a queued run
-      # needs the branch as it is now, not as it was when it was queued.
       - uses: actions/checkout@v4
         with:
           ref: main
