@@ -1,4 +1,6 @@
 (function () {
+  const PAGE_SIZE = 20;
+
   const ACCENT_PAIRS_DARK = [
     ["#3ef2a1", "#4d8bff"],
     ["#ff5cb3", "#a56dff"],
@@ -56,26 +58,11 @@
       .toUpperCase();
   }
 
+  // #149 fix: one fetch instead of manifest.json + N per-contributor card.json fetches.
   async function loadContributors() {
-    const manifestRes = await fetch("contributors/manifest.json");
-    if (!manifestRes.ok) throw new Error("Could not load manifest.json");
-    const usernames = await manifestRes.json();
-
-    const cards = await Promise.all(
-      usernames.map(async (username) => {
-        try {
-          const res = await fetch(`contributors/${username}/card.json`);
-          if (!res.ok) return null;
-          const data = await res.json();
-          return { username, ...data };
-        } catch (e) {
-          console.warn(`Failed to load card for ${username}`, e);
-          return null;
-        }
-      })
-    );
-
-    return cards.filter(Boolean);
+    const res = await fetch("contributors/people.json");
+    if (!res.ok) throw new Error("Could not load people.json");
+    return res.json();
   }
 
   function cardTemplate(person, index) {
@@ -117,13 +104,14 @@
     `;
   }
 
-  function render(people, filterState) {
-    const grid = document.getElementById("grid");
-    const empty = document.getElementById("empty-state");
+  // #150: filtering always runs over the full `people` list, never the
+  // currently-paginated slice — search/tag filters shouldn't miss people
+  // who just haven't been paged into view yet.
+  function filterPeople(people, filterState) {
     const query = filterState.query.trim().toLowerCase();
     const activeTag = filterState.tag;
 
-    const filtered = people.filter((p) => {
+    return people.filter((p) => {
       const matchesTag = !activeTag || (p.tags || []).includes(activeTag);
       if (!matchesTag) return false;
       if (!query) return true;
@@ -133,15 +121,37 @@
         .toLowerCase();
       return haystack.includes(query);
     });
+  }
+
+  // #150: renders only filterState.visibleCount of the filtered set, and
+  // shows/hides the "Load more" button depending on whether more remain.
+  function render(people, filterState) {
+    const grid = document.getElementById("grid");
+    const empty = document.getElementById("empty-state");
+    const loadMoreWrap = document.getElementById("load-more-wrap");
+    const loadMoreBtn = document.getElementById("load-more");
+
+    const filtered = filterPeople(people, filterState);
 
     if (filtered.length === 0) {
       grid.innerHTML = "";
       empty.style.display = "block";
+      loadMoreWrap.style.display = "none";
       return;
     }
 
     empty.style.display = "none";
-    grid.innerHTML = filtered.map((p, i) => cardTemplate(p, i)).join("");
+
+    const visible = filtered.slice(0, filterState.visibleCount);
+    grid.innerHTML = visible.map((p, i) => cardTemplate(p, i)).join("");
+
+    const remaining = filtered.length - visible.length;
+    if (remaining > 0) {
+      loadMoreWrap.style.display = "block";
+      loadMoreBtn.textContent = `Load more (${remaining} left)`;
+    } else {
+      loadMoreWrap.style.display = "none";
+    }
   }
 
   function buildTagFilters(people, filterState, onChange) {
@@ -158,6 +168,7 @@
     allPill.textContent = "All";
     allPill.addEventListener("click", () => {
       filterState.tag = null;
+      filterState.visibleCount = PAGE_SIZE;
       onChange();
       [...container.children].forEach((c) => c.classList.remove("active"));
       allPill.classList.add("active");
@@ -170,6 +181,7 @@
       pill.textContent = tag;
       pill.addEventListener("click", () => {
         filterState.tag = filterState.tag === tag ? null : tag;
+        filterState.visibleCount = PAGE_SIZE; // #150: reset pagination on filter change
         onChange();
         [...container.children].forEach((c) => c.classList.remove("active"));
         if (filterState.tag) pill.classList.add("active");
@@ -181,7 +193,7 @@
 
   async function init() {
     const grid = document.getElementById("grid");
-    const filterState = { query: "", tag: null };
+    const filterState = { query: "", tag: null, visibleCount: PAGE_SIZE };
 
     let people = [];
     try {
@@ -203,6 +215,13 @@
     const search = document.getElementById("search");
     search.addEventListener("input", () => {
       filterState.query = search.value;
+      filterState.visibleCount = PAGE_SIZE; // #150: reset pagination on new search
+      rerender();
+    });
+
+    const loadMoreBtn = document.getElementById("load-more");
+    loadMoreBtn.addEventListener("click", () => {
+      filterState.visibleCount += PAGE_SIZE;
       rerender();
     });
 
