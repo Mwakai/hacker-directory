@@ -50,14 +50,18 @@ function buildManifest(current, folders) {
 module.exports = { buildManifest, listContributorFolders };
 
 if (require.main === module) {
+  const raw = fs.readFileSync(MANIFEST_PATH, "utf-8");
   let current;
+
   try {
-    current = JSON.parse(fs.readFileSync(MANIFEST_PATH, "utf8"));
+    current = JSON.parse(raw);
   } catch (e) {
     console.warn(
       `Warning: ${MANIFEST_PATH} is invalid and will be rebuilt from contributor folders: ${e.message}`
     );
-    current = [];
+    // Salvage the usernames we can still read, so people keep their position.
+    // buildManifest discards anything that isn't a real folder anyway.
+    current = [...raw.matchAll(/"([^"\n]+)"/g)].map((m) => m[1]);
   }
 
   if (!Array.isArray(current)) {
