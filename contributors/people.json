@@ -1,5 +1,39 @@
 [
   {
+    "username": "AKSHAT0405",
+    "name": "Akshat Sodani",
+    "role": "CS Student,devloping in Django,AI/ML,Math",
+    "university": "JECRC Foundation College",
+    "github": "AKSHAT0405",
+    "bio": "Hello! ,I like finding intution behind abstracted matter.Curion in math,AI/ML and core principles for further growth.Learning dev tools for devlopemnt and execution of ideas.",
+    "tags": [
+      "Python",
+      "Full Stack",
+      "AI/ML",
+      "C++",
+      "Racket(BSL)"
+    ],
+    "links": {
+      "website": "https://talenmud.github.io"
+    }
+  },
+  {
+    "username": "ShrutiS470",
+    "name": "Shruti Sinha",
+    "role": "Data Science Student, Stats enthusiast - Noob Open Source Contributor",
+    "university": "Indian Institute of Technology, Madras",
+    "github": "ShrutiS470",
+    "bio": "I like Stats, Software and Skittles",
+    "tags": [
+      "Python",
+      "Javascript",
+      "Data Science"
+    ],
+    "links": {
+      "website": "https://github.com/ShrutiS470"
+    }
+  },
+  {
     "username": "Vengefulcookie",
     "name": "Snethemba Shangase",
     "role": "Junior DevOps Engineer (but really just a Tech/Software nerd) - Noob Open Source Contributor",
@@ -22,8 +56,8 @@
     "name": "Asmita Majumdar",
     "role": "Frontend developer",
     "university": "Bangalore Institute of Technology",
-    "github": "asmeetaahh",
-    "bio": "I have built an amazon like website.I love web development",
+    "github": "https://github.com/asmeetaahh",
+    "bio": "Learning web development, AI, open source and more...",
     "tags": [
       "Python",
       "JavaScript",
@@ -97,6 +131,23 @@
     ],
     "links": {
       "linkedin": "https://linkedin.com/in/abdullah-cs"
+    }
+  },
+  {
+    "username": "EmilioFex20",
+    "name": "Emilio Fernandez",
+    "role": "Developer | Open Source Learner",
+    "university": "",
+    "github": "EmilioFex20",
+    "bio": "Building my first open-source contribution and learning how to create polished, community-driven web projects.",
+    "tags": [
+      "Web Development",
+      "Open Source",
+      "JavaScript",
+      "GitHub"
+    ],
+    "links": {
+      "github": "https://github.com/EmilioFex20"
     }
   },
   {
@@ -725,6 +776,25 @@
     }
   },
   {
+    "username": "paul-chukwuemeka",
+    "name": "Paul Chukwuemeka",
+    "role": "CS Student, Fullstack Developer, and Open Source Enthusiast",
+    "university": "university of the people",
+    "github": "paul-chukwuemeka",
+    "bio": "I am a Computer Science student at the University of the People, passionate about web development and open source contributions. I enjoy building scalable web applications and exploring new technologies.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "NextJs",
+      "React",
+      "NodeJs",
+      "Open Source"
+    ],
+    "links": {
+      "website": "https://maskeddev.vercel.app/"
+    }
+  },
+  {
     "username": "BrianYuyuan",
     "name": "Brian Zhang",
     "role": "ECE Student",
@@ -746,7 +816,7 @@
     "role": "CS Recent Graduate - Noob Open Source Contributor",
     "university": "Costa Rica Institute of Technology",
     "github": "JoseAndresVargas",
-    "bio": "I like Stats, Software and Skittles",
+    "bio": "I like Software, problem solving and sports",
     "tags": [
       "Python",
       "Java",
@@ -1219,18 +1289,20 @@
   },
   {
     "username": "l3viath4n-365",
-    "name": "Michael",
-    "role": "Full-stack Dev",
-    "university": "Done w/ that shii",
+    "name": "Michael Oji",
+    "role": "Full-stack Deveveloper & Cybersecurity Enthusiast",
+    "university": "Gregory University, Abia State, Nigeria",
     "github": "l3viath4n-365",
-    "bio": "I don't i can't build yet, but i'm studying cybersecurity",
+    "bio": "Analytical and detail-oriented developer with a background in Biochemistry, currently specializing in Full-Stack Web Development and Cybersecurity. Proficient in building responsive front-end interfaces and secure back-end systems. Founder of The L3viath4n Brand, a streaming and technical brand focused on high-performance mobile hardware and competitive strategy",
     "tags": [
       "Python",
       "JavaScript",
-      "PostgreSQL"
+      "TypeScript",
+      "Postgres-Express-EJS-Node Stack",
+      "Cybersecurity"
     ],
     "links": {
-      "website": "No!"
+      "website": null
     }
   },
   {
@@ -1348,7 +1420,7 @@
   {
     "username": "mdmahmudul34",
     "name": "Md. Mahmudul Kabir Himel",
-    "role": "CS Student · ML & Cybersecurity Researcher (but really just a Tech/Cyber nerd)",
+    "role": "CS Student · ML & Cybersecurity Researcher (but really just a Tech/Cyber nerd) - Noob Open Source Contributor",
     "university": "BRAC University",
     "github": "mdmahmudul34",
     "bio": "Curious about everything, I wanna make things easier for others and add a bit of fun to a life that's already complicated enough. I like nature, clouds, rain, animals, and biryani.",
@@ -1435,5 +1507,73 @@
       "C++",
       "DevOps"
     ]
+  },
+  {
+    "username": "I1EA",
+    "name": "Imane El Ayadi",
+    "role": "IT Developer and Chemistry Student",
+    "bio": "A Moroccan tech enthusiast with a background in chemistry and IT, passionate about building tools that help farmers and communities.",
+    "github": "I1EA",
+    "tags": [
+      "Python",
+      "Streamlit",
+      "Chemist",
+      "Data",
+      "Morocco"
+    ],
+    "image": ""
+  },
+  {
+    "username": "techplanshetyapps",
+    "name": "Nataliia Rudnikova",
+    "role": "Software Engineer / Data Scientist",
+    "university": "Technical University Kyiv polytechnic Institute",
+    "github": "techplanshetyapps",
+    "bio": "Learning open source and building things in the cloud.",
+    "tags": [
+      "Cloud",
+      "Linux",
+      "Open Source"
+    ],
+    "links": {
+      "website": "https://github.com/techplanshetyapps"
+    }
+  },
+  {
+    "username": "Wmugacha",
+    "name": "Wilfred Mugacha",
+    "role": "Backend Developer",
+    "university": "China Agricultural University",
+    "github": "Wmugacha",
+    "bio": "Backend Engineer specializing in Python, Django, scalable RESTful APIs, and asynchronous architectures.",
+    "tags": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Docker",
+      "Redis",
+      "Celery"
+    ],
+    "links": {
+      "website": "https://github.com/Wmugacha"
+    }
+  },
+  {
+    "username": "chandrakumar1",
+    "name": "Chandrakumar Sharma",
+    "role": "CSE Student, Entrepreneur, and open source enthusiast",
+    "university": "Bangalore Institute of technology",
+    "github": "chandrakumar1",
+    "bio": "CSE student exploring programming, web development, and open source. Always learning, building, and trying new things.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "html",
+      "css",
+      "C++"
+    ],
+    "links": {
+      "website": "https://github.com/chandrakumar1"
+    }
   }
 ]
