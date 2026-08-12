@@ -57,6 +57,10 @@
         <div class="num" id="stat-tags">–</div>
         <div class="label">Tags</div>
       </div>
+      <div id="stat-visits-wrap">
+        <div class="num" id="stat-visits">–</div>
+        <div class="label">Visits</div>
+      </div>
       <div>
         <div class="num">∞</div>
         <div class="label">Vibes</div>
@@ -68,6 +72,7 @@
     <div class="controls">
       <input class="search-input" id="search" type="text" placeholder="Search by name, tag, or bio…"
         autocomplete="off" />
+      <button id="random-btn" class="btn btn-outline" aria-label="Open a random contributor">Random contributor →</button>
     </div>
     <div class="controls" id="tag-filters"></div>
 
@@ -77,6 +82,11 @@
       <div class="skeleton"></div>
       <div class="skeleton"></div>
     </div>
+
+    <div id="load-more-wrap" style="display:none; text-align:center; margin-top:1.5rem;">
+      <button id="load-more" class="btn btn-outline"></button>
+    </div>
+
     <div class="empty-state" id="empty-state" style="display:none;">
       No hackers match that search. <a href="CONTRIBUTING.md">Be the first?</a>
     </div>
@@ -88,6 +98,8 @@
   </footer>
 
   <script src="assets/directory.js"></script>
+  <script src="assets/visits.js"></script>
+  <script src="assets/random-contributor.js"></script>
   <script>HDTheme.init();</script>
 </body>
 
