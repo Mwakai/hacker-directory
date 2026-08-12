@@ -1606,5 +1606,21 @@
     "links": {
       "website": "https://kosichinaza.dev"
     }
+  },
+  {
+    "username": "mwakai",
+    "name": "Alvin Mwakai",
+    "role": "Software engineer, Artisan",
+    "university": "JKUAT",
+    "github": "Mwakai",
+    "bio": "I like Software",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Laravel"
+    ],
+    "links": {
+      "website": "https://alvinmwakai.com"
+    }
   }
 ]
