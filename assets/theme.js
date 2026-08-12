@@ -28,6 +28,13 @@
     init: function () {
       const btn = document.getElementById("theme-toggle");
       if (!btn) return;
+
+      const current = document.documentElement.getAttribute("data-theme");
+      btn.setAttribute(
+        "aria-label",
+        current === "dark" ? "Switch to light mode" : "Switch to dark mode",
+      );
+
       btn.addEventListener("click", function () {
         const current = document.documentElement.getAttribute("data-theme");
         const next = current === "dark" ? "light" : "dark";
