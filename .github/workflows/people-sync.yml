@@ -1,0 +1,46 @@
+name: Sync people.json
+
+# Runs after sync-manifest finishes, not directly on push.
+# manifest.json to know which contributors to bundle, so it must always run
+# AFTER manifest.json is settled — running both independently on the same
+# contributors/** push risked people-sync reading a stale manifest.
+
+on:
+  workflow_run:
+    workflows: ["Sync contributors manifest"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-people
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    # Only proceed if sync-manifest actually succeeded (or this was a manual
+    # dispatch, which has no workflow_run context to check).
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Rebuild people.json
+        run: node .github/scripts/build-people.js
+
+      - name: Commit if anything changed
+        run: |
+          if git diff --quiet -- contributors/people.json; then
+            echo "people.json already matches the contributor folders."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contributors/people.json
+          git commit -m "chore: sync contributors people.json"
+          git push

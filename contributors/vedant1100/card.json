@@ -1,0 +1,10 @@
+{
+  "name": "Vedant",
+  "role": "Frontend Developer",
+  "github": "vedant1100",
+  "bio": "Built a client-side library management system demo — login, browse a catalog, reserve books, and manage reservations with full CRUD.",
+  "tags": ["JavaScript", "HTML/CSS", "CRUD"],
+  "links": {
+    "website": "https://github.com/vedant1100"
+  }
+}

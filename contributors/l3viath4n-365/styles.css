@@ -537,9 +537,19 @@ section { padding: 100px 48px; }
   letter-spacing: 1px;
   color: var(--muted);
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.2s, text-decoration 0.2s; /* Added text-decoration transition */
 }
-.project-links a:hover { color: var(--green); }
+
+.project-links a:hover { 
+  color: var(--green); 
+}
+
+/* ADD THIS - Focus state with underline */
+.project-links a:focus {
+  text-decoration: underline;
+  color: var(--green); /* Optional: also change color on focus */
+  outline: none; /* Optional: removes default focus outline */
+}
 
 /* EXPERIENCE */
 .timeline {
