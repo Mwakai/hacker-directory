@@ -1,5 +1,20 @@
 [
   {
+    "username": "vedant1100",
+    "name": "Vedant",
+    "role": "Frontend Developer",
+    "github": "vedant1100",
+    "bio": "Built a client-side library management system demo — login, browse a catalog, reserve books, and manage reservations with full CRUD.",
+    "tags": [
+      "JavaScript",
+      "HTML/CSS",
+      "CRUD"
+    ],
+    "links": {
+      "website": "https://github.com/vedant1100"
+    }
+  },
+  {
     "username": "AKSHAT0405",
     "name": "Akshat Sodani",
     "role": "CS Student,devloping in Django,AI/ML,Math",
@@ -1574,6 +1589,22 @@
     ],
     "links": {
       "website": "https://github.com/chandrakumar1"
+    }
+  },
+  {
+    "username": "KosiChinaza",
+    "name": "Kosisochukwu Ugwu",
+    "role": "Software Developer - Blockchain developer, Frontend developer",
+    "github": "KosiChinaza",
+    "bio": "I am ethusiastic software developer, trying out new things and focused on creating innovations that offer real life solutions",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Solidity",
+      "ether.js"
+    ],
+    "links": {
+      "website": "https://kosichinaza.dev"
     }
   }
 ]
