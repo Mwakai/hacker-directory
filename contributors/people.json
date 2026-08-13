@@ -1,17 +1,17 @@
 [
   {
-    "username": "vedant1100",
-    "name": "Vedant",
-    "role": "Frontend Developer",
-    "github": "vedant1100",
-    "bio": "Built a client-side library management system demo — login, browse a catalog, reserve books, and manage reservations with full CRUD.",
+    "username": "sammy-nug",
+    "name": "Samuel Emmanuel",
+    "role": "AI Native Software Engineer, Tech enthusiast",
+    "github": "sammy-nug",
+    "bio": "I like learning new things, Software and exploring AI",
     "tags": [
-      "JavaScript",
-      "HTML/CSS",
-      "CRUD"
+      "Python",
+      "React",
+      "Go"
     ],
     "links": {
-      "website": "https://github.com/vedant1100"
+      "website": "https://sammy-nug.github.io"
     }
   },
   {
@@ -1621,6 +1621,21 @@
     ],
     "links": {
       "website": "https://alvinmwakai.com"
+    }
+  },
+  {
+    "username": "vedant1100",
+    "name": "Vedant",
+    "role": "Frontend Developer",
+    "github": "vedant1100",
+    "bio": "Built a client-side library management system demo — login, browse a catalog, reserve books, and manage reservations with full CRUD.",
+    "tags": [
+      "JavaScript",
+      "HTML/CSS",
+      "CRUD"
+    ],
+    "links": {
+      "website": "https://github.com/vedant1100"
     }
   }
 ]
