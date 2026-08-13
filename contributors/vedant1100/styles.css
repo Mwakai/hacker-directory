@@ -1,0 +1,261 @@
+/* Vedant's page — Library Management System demo styles.
+   Only affects this page; uses the shared theme variables from
+   assets/style.css so it stays in sync with light/dark mode. */
+
+.lms-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  margin-top: 1.2rem;
+  box-shadow: 0 4px 18px var(--shadow-color);
+}
+
+.lms-error {
+  color: var(--accent-red);
+  font-size: 0.85rem;
+  margin: 0.2rem 0 0.6rem;
+}
+
+/* ---------- Forms ---------- */
+
+.lms-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  max-width: 360px;
+}
+
+.lms-form h3 {
+  font-family: var(--font-goofy);
+  margin: 0 0 0.4rem;
+}
+
+.lms-form label {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-top: 0.4rem;
+}
+
+.lms-form input,
+.lms-form select,
+.lms-form textarea {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.6rem 0.7rem;
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  font-size: 0.92rem;
+  resize: vertical;
+}
+
+.lms-form input:focus,
+.lms-form select:focus,
+.lms-form textarea:focus {
+  outline: none;
+  border-color: var(--accent-blue);
+}
+
+.lms-form button {
+  margin-top: 0.9rem;
+  align-self: flex-start;
+}
+
+/* ---------- Top bar (welcome + logout) ---------- */
+
+.lms-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  padding-bottom: 1.2rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.lms-topbar p {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+/* ---------- Sections ---------- */
+
+.lms-section {
+  margin-top: 1.8rem;
+}
+
+.lms-section-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.lms-section-head h3 {
+  font-family: var(--font-goofy);
+  margin: 0;
+}
+
+.lms-count {
+  display: inline-block;
+  background: var(--pill-bg);
+  color: var(--text-primary);
+  font-size: 0.75rem;
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+#catalog-search {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.8rem;
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  font-size: 0.88rem;
+  min-width: 220px;
+}
+
+/* ---------- Catalog grid ---------- */
+
+.lms-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.9rem;
+}
+
+.lms-book {
+  background: var(--bg-raised);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.lms-book:hover {
+  border-color: var(--border-hover);
+  transform: translateY(-2px);
+}
+
+.lms-book-title {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.lms-book-meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.lms-book-copies {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  margin-top: 0.2rem;
+}
+
+.lms-book button {
+  margin-top: 0.6rem;
+  width: 100%;
+}
+
+.lms-book button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ---------- Reservations table ---------- */
+
+.lms-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+.lms-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+  min-width: 640px;
+}
+
+.lms-table th,
+.lms-table td {
+  padding: 0.65rem 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+}
+
+.lms-table th {
+  background: var(--bg-raised);
+  color: var(--text-secondary);
+  font-weight: 600;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.lms-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.lms-status {
+  display: inline-block;
+  font-size: 0.75rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  background: var(--pill-bg);
+}
+
+.lms-status.status-reserved { color: var(--accent-blue); }
+.lms-status.status-picked-up { color: var(--accent-orange); }
+.lms-status.status-returned { color: var(--accent-green); }
+
+.lms-row-actions {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.lms-row-actions button {
+  padding: 0.35rem 0.7rem;
+  font-size: 0.78rem;
+}
+
+/* ---------- Modal ---------- */
+
+.lms-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  z-index: 50;
+}
+
+.lms-modal {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 420px;
+  box-shadow: 0 10px 40px var(--shadow-color);
+}
+
+.lms-modal-actions {
+  display: flex;
+  gap: 0.6rem;
+  margin-top: 1rem;
+}

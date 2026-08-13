@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vedant — hacker directory</title>
+  <meta name="description" content="Vedant's personal page in the hacker directory — a mini library management system demo." />
+  <link rel="stylesheet" href="../../assets/style.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="../../assets/theme.js"></script>
+</head>
+<body>
+  <nav class="nav">
+    <a class="nav-brand" href="../../index.html">
+      <span class="dot"></span>
+      hacker directory
+    </a>
+    <div class="nav-links">
+      <a href="../../index.html">← back to directory</a>
+      <button id="theme-toggle" aria-label="Toggle theme">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <main class="wrap" style="padding-top: 3rem; padding-bottom: 4rem;">
+    <h1 style="font-family: var(--font-goofy); font-size: 2.3rem; margin-bottom: 0.4rem;">Vedant</h1>
+    <p style="color: var(--text-secondary); margin-top: 0;">Frontend Dev · @vedant1100</p>
+
+    <p style="max-width: 620px; line-height: 1.6; color: var(--text-secondary);">
+      Below is a small self-contained demo I built: a library management
+      system. Log in, browse the catalog, reserve a book, and manage your
+      reservations (edit / delete) — everything runs client-side and lives
+      only for this browser tab.
+    </p>
+
+    <div class="pills" style="margin: 1.2rem 0;">
+      <span class="pill" style="--pill-color:#3ef2a1">JavaScript</span>
+      <span class="pill" style="--pill-color:#4d8bff">HTML/CSS</span>
+      <span class="pill" style="--pill-color:#ff5cb3">CRUD Demo</span>
+    </div>
+
+    <div style="display:flex; gap:0.7rem; flex-wrap: wrap;">
+      <a class="btn btn-outline" href="https://github.com/vedant1100" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+
+    <!-- ===================== Library Management System ===================== -->
+    <section class="lms" aria-labelledby="lms-heading" style="margin-top: 3rem;">
+      <h2 id="lms-heading" style="font-family: var(--font-goofy); font-size: 1.45rem;">📚 Library Management System</h2>
+      <p style="color: var(--text-secondary); max-width: 620px; line-height: 1.6;">
+        Demo credentials: any non-empty username, password
+        <code>demo123</code> (or use <code>demo</code> / <code>demo123</code>).
+        Reservations are kept in <code>sessionStorage</code>, so they clear
+        automatically when this tab is closed.
+      </p>
+
+      <!-- ---------- Login view ---------- -->
+      <div id="login-view" class="lms-panel">
+        <form id="login-form" class="lms-form" autocomplete="off">
+          <h3>Login</h3>
+          <label for="login-username">Username</label>
+          <input id="login-username" name="username" type="text" placeholder="e.g. vedant" required />
+
+          <label for="login-password">Password</label>
+          <input id="login-password" name="password" type="password" placeholder="demo123" required />
+
+          <p id="login-error" class="lms-error" hidden></p>
+
+          <button type="submit" class="btn btn-primary">Log in</button>
+        </form>
+      </div>
+
+      <!-- ---------- App view (hidden until logged in) ---------- -->
+      <div id="app-view" class="lms-panel" hidden>
+        <div class="lms-topbar">
+          <p>Welcome, <strong id="welcome-user">—</strong> 👋</p>
+          <button id="logout-btn" class="btn btn-outline">Log out</button>
+        </div>
+
+        <!-- Catalog -->
+        <div class="lms-section">
+          <div class="lms-section-head">
+            <h3>Book Catalog</h3>
+            <input id="catalog-search" type="search" placeholder="Search title, author, genre…" />
+          </div>
+          <div id="catalog-grid" class="lms-grid"></div>
+        </div>
+
+        <!-- Reserved books (temporary CRUD store) -->
+        <div class="lms-section">
+          <div class="lms-section-head">
+            <h3>My Reservations <span id="reservation-count" class="lms-count">0</span></h3>
+            <button id="add-reservation-btn" class="btn btn-outline">+ Add custom reservation</button>
+          </div>
+          <p style="color: var(--text-muted); font-size: 0.85rem; margin-top: -0.4rem;">
+            These are held temporarily for this session — reserve a book above,
+            or add a custom entry, then edit/delete it below.
+          </p>
+
+          <div class="lms-table-wrap">
+            <table class="lms-table">
+              <thead>
+                <tr>
+                  <th>Title</th>
+                  <th>Author</th>
+                  <th>Reserved</th>
+                  <th>Due</th>
+                  <th>Status</th>
+                  <th>Notes</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody id="reservations-body">
+                <tr id="reservations-empty">
+                  <td colspan="7" style="text-align:center; color: var(--text-muted);">
+                    No reservations yet — reserve a book from the catalog above.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- Reservation modal (create / edit) ---------- -->
+    <div id="reservation-modal" class="lms-modal-overlay" hidden>
+      <div class="lms-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <h3 id="modal-title">Reservation</h3>
+        <form id="reservation-form" class="lms-form">
+          <input type="hidden" id="res-id" />
+
+          <label for="res-title">Title</label>
+          <input id="res-title" type="text" required />
+
+          <label for="res-author">Author</label>
+          <input id="res-author" type="text" required />
+
+          <label for="res-due">Due date</label>
+          <input id="res-due" type="date" required />
+
+          <label for="res-status">Status</label>
+          <select id="res-status">
+            <option value="Reserved">Reserved</option>
+            <option value="Picked up">Picked up</option>
+            <option value="Returned">Returned</option>
+          </select>
+
+          <label for="res-notes">Notes</label>
+          <textarea id="res-notes" rows="2" placeholder="Optional notes…"></textarea>
+
+          <div class="lms-modal-actions">
+            <button type="button" id="modal-cancel-btn" class="btn btn-outline">Cancel</button>
+            <button type="submit" class="btn btn-primary">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    This is my page in the <a href="../../index.html">hacker directory</a> — make your own in a PR.
+  </footer>
+
+  <script>HDTheme.init();</script>
+  <script src="script.js"></script>
+</body>
+</html>
