@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Random contributor</title>
+</head>
+<body>
+  <p>Picking a random contributor…</p>
+  <script>
+    // This page exists so URLs like /random/ work on GitHub Pages.
+    // It fetches the manifest from the site root and redirects to a random profile.
+    (async function () {
+      try {
+        const res = await fetch('../contributors/manifest.json', { cache: 'no-cache' });
+        if (!res.ok) throw new Error('manifest fetch failed');
+        const manifest = await res.json();
+        if (!Array.isArray(manifest) || manifest.length === 0) throw new Error('empty manifest');
+        const choice = manifest[Math.floor(Math.random() * manifest.length)];
+        location.replace(`../contributors/${encodeURIComponent(choice)}/index.html`);
+      } catch (e) {
+        console.error(e);
+        document.body.innerHTML = '<p>Could not pick a random contributor right now. Try again later.</p>';
+      }
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,1626 @@
+[
+  {
+    "username": "vedant1100",
+    "name": "Vedant",
+    "role": "Frontend Developer",
+    "github": "vedant1100",
+    "bio": "Built a client-side library management system demo — login, browse a catalog, reserve books, and manage reservations with full CRUD.",
+    "tags": [
+      "JavaScript",
+      "HTML/CSS",
+      "CRUD"
+    ],
+    "links": {
+      "website": "https://github.com/vedant1100"
+    }
+  },
+  {
+    "username": "AKSHAT0405",
+    "name": "Akshat Sodani",
+    "role": "CS Student,devloping in Django,AI/ML,Math",
+    "university": "JECRC Foundation College",
+    "github": "AKSHAT0405",
+    "bio": "Hello! ,I like finding intution behind abstracted matter.Curion in math,AI/ML and core principles for further growth.Learning dev tools for devlopemnt and execution of ideas.",
+    "tags": [
+      "Python",
+      "Full Stack",
+      "AI/ML",
+      "C++",
+      "Racket(BSL)"
+    ],
+    "links": {
+      "website": "https://talenmud.github.io"
+    }
+  },
+  {
+    "username": "ShrutiS470",
+    "name": "Shruti Sinha",
+    "role": "Data Science Student, Stats enthusiast - Noob Open Source Contributor",
+    "university": "Indian Institute of Technology, Madras",
+    "github": "ShrutiS470",
+    "bio": "I like Stats, Software and Skittles",
+    "tags": [
+      "Python",
+      "Javascript",
+      "Data Science"
+    ],
+    "links": {
+      "website": "https://github.com/ShrutiS470"
+    }
+  },
+  {
+    "username": "Vengefulcookie",
+    "name": "Snethemba Shangase",
+    "role": "Junior DevOps Engineer (but really just a Tech/Software nerd) - Noob Open Source Contributor",
+    "github": "Vengefulcookie",
+    "bio": "Curious about everything, from how to make things easier, to making life more fun and interesting. Also I like sweet treats, anime, alternative rock and animals.",
+    "tags": [
+      "React",
+      "DevOps",
+      "AI",
+      "Automation",
+      "Open Source",
+      "Python"
+    ],
+    "links": {
+      "website": "https://vcookie-portfolio.netlify.app/"
+    }
+  },
+  {
+    "username": "asmeetaahh",
+    "name": "Asmita Majumdar",
+    "role": "Frontend developer",
+    "university": "Bangalore Institute of Technology",
+    "github": "https://github.com/asmeetaahh",
+    "bio": "Learning web development, AI, open source and more...",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "C++"
+    ],
+    "links": {
+      "website": "https://github.com/asmeetaahh"
+    }
+  },
+  {
+    "username": "adriensch",
+    "name": "Adrien Schildwachter",
+    "role": "Aspiring Web Developer",
+    "university": "Cascadia College",
+    "github": "AdrienSch",
+    "bio": "I've been working on front-end and back-end issues on open-source projects. In terms of tech stack, I am continuing to learn JavaScript, API Scripting, and SQL. Looking forward to expanding my skill set and learning new technologies!",
+    "tags": [
+      "JavaScript",
+      "SQL",
+      "C# (ASP.NET Core)"
+    ],
+    "links": {
+      "website": "https://github.com/AdrienSch"
+    }
+  },
+  {
+    "username": "Logicflow-235",
+    "name": "Linet Theuri",
+    "role": "Fullstack Developer",
+    "university": "Karatina University",
+    "github": "Logicflow-235",
+    "bio": "I have a money problem, so I built Track Pesa — a Kenyan-market finance tracker — and used it to teach myself backend dev (Node/Express, JWT, MongoDB).",
+    "tags": [
+      "React",
+      "TypeScript",
+      "Node.js"
+    ],
+    "links": {
+      "website": "https://track-pesa.vercel.app/"
+    }
+  },
+  {
+    "username": "valentina-buoro",
+    "name": "Valentina Buoro",
+    "role": "Masters Student, Software Engineer",
+    "university": "Trent University",
+    "github": "valentina-buoro",
+    "bio": "Potterhead. Network Enthusiast. I enjoy reading sci-fi and mythological books",
+    "tags": [
+      "Python",
+      "React",
+      "Data Science"
+    ],
+    "links": {
+      "website": "www.valentinabuoro.com"
+    }
+  },
+  {
+    "username": "abdullahcodes-dev",
+    "name": "Muhammad Abdullah",
+    "role": "BSCS Studet | Aspiring Software Engineer",
+    "university": "COMSATS University Islamabad",
+    "github": "abdullahcodes-dev",
+    "bio": "BSCS student at COMSATS University Islamabad. Currently learning web development, AI-assisted software development, and open source through internships, hackathons, and personal projects.",
+    "tags": [
+      "Web Develeopment",
+      "Java",
+      "Python",
+      "Javascript",
+      "Open Source"
+    ],
+    "links": {
+      "linkedin": "https://linkedin.com/in/abdullah-cs"
+    }
+  },
+  {
+    "username": "EmilioFex20",
+    "name": "Emilio Fernandez",
+    "role": "Developer | Open Source Learner",
+    "university": "",
+    "github": "EmilioFex20",
+    "bio": "Building my first open-source contribution and learning how to create polished, community-driven web projects.",
+    "tags": [
+      "Web Development",
+      "Open Source",
+      "JavaScript",
+      "GitHub"
+    ],
+    "links": {
+      "github": "https://github.com/EmilioFex20"
+    }
+  },
+  {
+    "username": "NelsonFodjo",
+    "name": "Nelson Fodjo",
+    "role": "AI engineering, Fullstack dev",
+    "university": "ALCHE",
+    "github": "NelsonFodjo",
+    "bio": "I am the Solution Architect",
+    "tags": [
+      "Python",
+      "React",
+      "n8n"
+    ],
+    "links": {
+      "website": "https://www.nelsonfodjo.me"
+    }
+  },
+  {
+    "username": "yulian",
+    "name": "Yulian Zhu-Yu",
+    "role": "CS Student, Robotics Nerd",
+    "university": "UTM",
+    "github": "jakeiscake2",
+    "bio": "Working on being the second greatest programmer on earth.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "Robotics"
+    ],
+    "links": {
+      "website": "https://jakeiscake2.github.i/"
+    }
+  },
+  {
+    "username": "talenmud",
+    "name": "Talen Mudaly",
+    "role": "CS Student, Stats enthusiast - Noob Open Source Contributor",
+    "university": "The University of Manchester",
+    "github": "TalenMud",
+    "bio": "I like Stats, Software and Skittles",
+    "tags": [
+      "Python",
+      "React",
+      "Data Science"
+    ],
+    "links": {
+      "website": "https://talenmud.github.io"
+    }
+  },
+  {
+    "username": "ofthewildfire",
+    "name": "Kirsty",
+    "role": "CS Student and General Tinker-er",
+    "github": "ofthewildfire",
+    "bio": "I like everything really ~ I want to be able to be like a cool dev from my dreams haha ~ work in progress.",
+    "tags": [
+      "Python",
+      "PHP",
+      "Laravel"
+    ],
+    "links": {
+      "website": "https://github.com/ofthewildfire"
+    }
+  },
+  {
+    "username": "sierrawarren",
+    "name": "Sierra Warren",
+    "github": "sierrawarren",
+    "bio": "Engineer, developer, and systems architect. Founder of Sierra Warren Developments LLC, focused on adaptive analytics, scalable cloud architecture, and open sovereign infrastructure like the Glass Substrate Protocol.",
+    "tags": [
+      "Systems Architecture",
+      "Machine Learning",
+      "Cloud Engineering",
+      "Open Infrastructure",
+      "Hardware-Software Integration"
+    ]
+  },
+  {
+    "username": "himani78116",
+    "name": "Himani Bagale",
+    "role": "CS Student, Fullstack Dev, AI enthusiast",
+    "university": "AISSMS IOIT",
+    "github": "Himani78116",
+    "bio": "A student exploring tech for solving real world problems.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "React",
+      "Next.js"
+    ],
+    "links": {
+      "website": "https://github.com/Himani78116"
+    }
+  },
+  {
+    "username": "tyrone-serdan",
+    "name": "Tyrone Serdan",
+    "role": "CS Student",
+    "university": "FSUU",
+    "github": "tyrone-serdan",
+    "bio": "3rd year cs student, currently doing webdev & game dev.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Godot",
+      "Web"
+    ],
+    "links": {
+      "website": "https://imtyr.one"
+    }
+  },
+  {
+    "username": "caex77",
+    "name": "Ling Da Lin",
+    "role": "CS Student | Aspiring Webdev",
+    "university": "University of Kent",
+    "github": "caex77",
+    "bio": "2nd year CS student working towards being a webdev or gamedev.",
+    "tags": [
+      "Java",
+      "JavaScript",
+      "Web Development",
+      "React",
+      "TailwindCSS"
+    ]
+  },
+  {
+    "username": "mechaimmaculate",
+    "name": "Mecha Immaculate",
+    "role": "Nerd, Full Stack Developer, and AI Enthusiast",
+    "university": "Jomo Kenyatta University of Agriculture and Technology (JKUAT)",
+    "github": "MechaImmaculate",
+    "bio": "Full Stack Developer and AI enthusiast passionate about building practical software, intelligent systems, and geospatial solutions. I enjoy turning ideas into reliable applications while continuously learning and exploring new technologies.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "PHP",
+      "Laravel",
+      "AI",
+      "Machine Learning",
+      "Web Development",
+      "GIS"
+    ],
+    "links": {
+      "website": "https://immaculatemecha.gt.tc"
+    }
+  },
+  {
+    "username": "Eseoghene-ChristineOtuaga",
+    "name": "Eseoghene Christine Otuaga",
+    "role": "Junior Dev 😁",
+    "github": "Eseoghene-ChristineOtuaga",
+    "bio": "I'm a frontend dev, currently taking Angela's python bootcamp to improve my skills, I like Jesus, Anime and Marshmallows ",
+    "tags": [
+      "Python",
+      "Javascript",
+      "Machine Learning"
+    ],
+    "links": {
+      "website": "https://cv-azure-five.vercel.app/"
+    }
+  },
+  {
+    "username": "kalpesh1sharma",
+    "name": "Kalpesh Sharma",
+    "role": "Backend & AI Engineer",
+    "university": "NIT Jalandhar",
+    "github": "kalpesh1sharma",
+    "bio": "Building AI agents, backend systems, and learning through open source.",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "AI",
+      "Backend",
+      "Open Source"
+    ],
+    "links": {
+      "website": "https://kalpeshsharma.in"
+    }
+  },
+  {
+    "username": "keyboard-warrior-777",
+    "name": "Sarthak Singh",
+    "role": "CS Student, AI/ML enthusiast - Noob Open Source Contributor",
+    "university": "GGSIP University",
+    "github": "keyboard-warrior-777",
+    "bio": "I like AI/ML, Data Science, and Web Development. I am a beginner in Open Source Contribution and I am looking forward to learning more about it.",
+    "tags": [
+      "Python",
+      "DSA",
+      "Data Science"
+    ],
+    "links": {
+      "website": "https://sarthaksingh.lovable.app/",
+      "linkedin": "https://www.linkedin.com/in/sarthak-singh-5bba442a8"
+    }
+  },
+  {
+    "username": "somaathetechster",
+    "name": "Somaa Chukwu",
+    "role": "Full Stack Developer, Data Scientist - Open Source Contributor",
+    "university": "The University of Arizona",
+    "github": "somaathetechster",
+    "bio": "I like code, building things and playing chess",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "AI/ML",
+      "React",
+      "Node.js"
+    ],
+    "links": {
+      "website": "https://mmesoma-portfolio.vercel.app/"
+    }
+  },
+  {
+    "username": "aceauspicio",
+    "name": "Rajveer Choudhary",
+    "role": "CS Student, Tech enthusiast - Noob Open Source Contributor",
+    "university": "St Mary's English High School",
+    "github": "aceauspicio",
+    "bio": "I like computers and software",
+    "tags": [
+      "Python",
+      "React",
+      "Cyber Security"
+    ],
+    "links": {
+      "website": "https://aceauspicio.github.io/portfolio/"
+    }
+  },
+  {
+    "username": "reyschwartz19",
+    "name": "Remy",
+    "role": "Backend & Cloud Developer | CS Education Graduate",
+    "university": "University of Bamenda (HTTC Bambili)",
+    "github": "reyschwartz19",
+    "bio": "CS Education graduate (DIPES I) turned backend engineer. Building in public with Node.js, Docker, Redis, and AWS — shipping projects like a production-grade URL shortener and an npm CLI tool for scaffolding backend structures. Deep into cloud fundamentals via AWS DVA-C02 prep, and exploring the African tech ecosystem along the way.",
+    "tags": [
+      "Backend Development",
+      "Node.js",
+      "AWS",
+      "Docker",
+      "Redis",
+      "Open Source"
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/njong-remy-nga-i-bb7690343/",
+      "github": "https://github.com/reyschwartz19"
+    }
+  },
+  {
+    "username": "yonkosan",
+    "name": "yonkosan",
+    "role": "Data Scientist",
+    "university": "i am from IIT roorkee",
+    "github": "yonkosan",
+    "bio": "am a curios nerd",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "Rust"
+    ],
+    "links": {
+      "website": "https://github.com/yonkosan"
+    }
+  },
+  {
+    "username": "RUTURAJROCks",
+    "name": "Ruturaj Bhosale",
+    "role": "AI engineer",
+    "university": "NSUT",
+    "github": "RUTURAJROCks",
+    "bio": "Building softwares and making solutions for real impact and fun",
+    "tags": [
+      "Python",
+      "RAG",
+      "C++",
+      "Agents"
+    ],
+    "links": {
+      "website": "https://www.ruturajbhosale.com"
+    }
+  },
+  {
+    "username": "EWanjau",
+    "name": "Erasto Wamuti",
+    "role": "Data Scientist",
+    "university": "Lux Dev Hq",
+    "github": "EWanjau",
+    "bio": "I am into understanding data and building  data prediction pipelines",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "links": {
+      "website": "https://erasto-wamuti.lovable.app/"
+    }
+  },
+  {
+    "username": "hrinkar01",
+    "name": "Hrinkar Bothra",
+    "role": "ML Engineer, IOT, Hardware Embedded Hacking, Reverse Engineer",
+    "university": "GITS",
+    "github": "hrinkar01",
+    "bio": "I create and reverse engineer stuff",
+    "tags": [
+      "Python",
+      "IOT",
+      "Reverse Engineer",
+      "ML"
+    ]
+  },
+  {
+    "username": "adhikari-arpan",
+    "name": "Arpan Adhikari",
+    "role": "Computer Engineering Student - Excited to learn new things",
+    "university": "Pokhara University",
+    "github": "adhikari-arpan",
+    "bio": "I like creating fun in all things I do.",
+    "tags": [
+      "Python",
+      "React"
+    ],
+    "links": {
+      "website": "https://www.arpanadhikari7.com.np/"
+    }
+  },
+  {
+    "username": "sujandhakal0",
+    "name": "Sujan Dhakal",
+    "role": "Aspiring Machine Learning Engineer | CS Student",
+    "university": "Universal College of IT and Management, Kathmandu",
+    "github": "sujandhakal0",
+    "bio": "Computer Application student and self-directed ML practitioner, building end-to-end projects from data cleaning to shipped applications.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Machine Learning",
+      "React",
+      "Data Science"
+    ],
+    "links": {
+      "website": "https://sujandhakal0.com.np"
+    }
+  },
+  {
+    "username": "Yany954",
+    "name": "Yany Gonzalez Yepez",
+    "role": "Software Engineer | Mobile & Web Dev | AI Integration",
+    "university": "Fundación Universitaria Compensar",
+    "github": "your-github-username",
+    "bio": "I build mobile & web apps and integrate AI into real products. Flutter, React, GCP & LLMs.",
+    "tags": [
+      "Flutter",
+      "React",
+      "Python",
+      "TypeScript",
+      "AI/LLMs",
+      "GCP",
+      "Firebase"
+    ],
+    "links": {
+      "website": "https://yany-portafolio.vercel.app"
+    }
+  },
+  {
+    "username": "0rukpa",
+    "name": "Light Orukpa Diamonds",
+    "role": "What you do — e.g. CS Student, AI/ML Engineer",
+    "university": "University of Benin",
+    "github": "github.com/0rukpa",
+    "bio": "Ilove to participate in hackathons and coding competitions.",
+    "tags": [
+      "Python",
+      "Microsoft Azure",
+      "AI/ML"
+    ],
+    "links": {
+      "website": "nil"
+    }
+  },
+  {
+    "username": "cosmasonyekwelu",
+    "name": "Cosmas Onyekwelu",
+    "role": "Full-Stack Developer & AI Automation Specialist",
+    "university": "Cosark / REF-TRADERNG LTD",
+    "github": "cosmasonyekwelu",
+    "bio": "Building fintech and automation tools out of Lagos — OTCBook (trade-capture & P&L system), RefTrader (crypto trading automation framework), and a Rust-based crypto trading engine. I write about software engineering and agentic AI at cosmasonyekwelu.substack.com.",
+    "tags": [
+      "Node.js",
+      "React",
+      "AI Automation",
+      "Rust",
+      "Crypto/OTC",
+      "n8n"
+    ],
+    "links": {
+      "website": "https://cosmasonyekwelu.com"
+    }
+  },
+  {
+    "username": "zeliktric",
+    "name": "Zeliktric",
+    "role": "Graduate CS Student",
+    "university": "",
+    "github": "zeliktric",
+    "bio": "Interested in frontend web development and game development",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "C#",
+      "Unity"
+    ],
+    "links": {
+      "website": "https://github.com/zeliktric"
+    }
+  },
+  {
+    "username": "foa-developer",
+    "name": "Flourish Agbanoma",
+    "role": "Frontend dev",
+    "university": "Universoty OF Benin, Nigeria",
+    "github": "foa-developer",
+    "bio": "Currently learning backend and building  full-stack projects",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "MERN",
+      "AWS"
+    ],
+    "links": {
+      "website": "https://flourishagbanoma.vercel.app"
+    }
+  },
+  {
+    "username": "GeoNjunge",
+    "name": "George Njunge",
+    "role": "IT Student, ML lover, HPC enthusiast",
+    "university": "Dedan Kimathi University of Technology",
+    "github": "GeoNjunge",
+    "bio": "I love Basketball(The 2K video game I mean)",
+    "tags": [
+      "Python",
+      "Typescript",
+      "Machine Learning"
+    ],
+    "links": {
+      "website": "https://george-njunge-blog.vercel.app/"
+    }
+  },
+  {
+    "username": "shlokktiwarii",
+    "name": "Shlok Tiwari",
+    "role": "What you do — e.g. CS Student, Frontend Dev, Robotics Nerd",
+    "university": "Khwaja Moinuddin Chishti Language University, Lucknow",
+    "github": "shlokktiwarii",
+    "bio": "One or two sentences about what you build, what you're learning, or what you're into.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "Your Tag Here"
+    ],
+    "links": {
+      "website": "https://your-site.example.com"
+    }
+  },
+  {
+    "username": "SumaP2005",
+    "name": "Suma",
+    "role": "IT Studet | Aspiring Software Engineer",
+    "university": "Intenational Burch University",
+    "github": "SumaP2005",
+    "bio": "hiiii. IT student here. I like learning open source through internships, hackathons, and personal projects.",
+    "tags": [
+      "Web Develeopment",
+      "Java",
+      "Python",
+      "Javascript",
+      "Open Source"
+    ],
+    "links": {
+      "linkedin": "N/A"
+    }
+  },
+  {
+    "username": "Luis-Alain",
+    "name": "Luis Alain",
+    "role": "CS Student, Stats enthusiast - Noob Open Source Contributor",
+    "university": "Universidad Tecnológica de Panamá",
+    "github": "LuisAlain",
+    "bio": "I am a Computer Science student from Panama, I am passionate about Cloud Computing and AI. I also like Backend development and I'm interested in open source contributions. I also like video editing 🎥.",
+    "tags": [
+      "Python",
+      "TypeScript",
+      "AI",
+      "Cloud Computing",
+      "Backend Development",
+      "Open Source"
+    ],
+    "links": {
+      "github": "https://github.com/Luis-Alain"
+    }
+  },
+  {
+    "username": "nimroddddd",
+    "name": "Amin Abdulkabir",
+    "role": "Senior developer in the making",
+    "university": "Kwara State University",
+    "github": "Nimroddddd",
+    "bio": "I love transforming ideas into reality",
+    "tags": [
+      "Python",
+      "Typescript",
+      "Fullstack"
+    ],
+    "links": {
+      "website": "https://aminabdulkabir.netlify.app"
+    }
+  },
+  {
+    "username": "b-tanyileke",
+    "name": "Tanyileke Nkolaka",
+    "role": "Master's Student in AI, AI/ML Enthusiast, Open Source Contributor",
+    "university": "The University of Houston-Downtown",
+    "github": "b-tanyileke",
+    "bio": "I like Reading, Sports, and Software development.",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "AI",
+      "Data Science",
+      "MLOps",
+      "Open Source"
+    ],
+    "links": {
+      "website": "https://b-tanyileke.github.io"
+    }
+  },
+  {
+    "username": "MarioPB05",
+    "name": "Mario Perdiguero Barrera",
+    "role": "Fullstack Developer",
+    "university": "FUNDACIÓN SAFA – Escuelas Profesionales Sagrada Familia",
+    "github": "MarioPB05",
+    "bio": "Full-stack developer focused on building modern web and mobile applications. Passionate about Angular, PHP, Firebase, and creating software that solves real-world problems.",
+    "tags": [
+      "Angular",
+      "TypeScript",
+      "PHP",
+      "JavaScript",
+      "Ionic",
+      "Firebase"
+    ]
+  },
+  {
+    "username": "sawindi",
+    "name": "Waruni Sawindi Oleena",
+    "role": "AI graduate",
+    "university": "The University of Hertfordshire",
+    "github": "Sawindi",
+    "bio": "I like AI, web development and web design",
+    "tags": [
+      "Python",
+      "Java"
+    ],
+    "links": {
+      "website": "https://github.com/Sawindi"
+    }
+  },
+  {
+    "username": "OmkarMhatre007",
+    "name": "Omkar Mhatre",
+    "role": "CSE(Data Science) Student, ML Enthusiast",
+    "university": "M.G.M. College of Engineering and Technology, Navi Mumbai affiliated to University of Mumbai",
+    "github": "OmkarMhatre007",
+    "bio": "A student exploring tech for solving real world problems.",
+    "tags": [
+      "Python",
+      "C++",
+      "Git & GitHub",
+      "HTML",
+      "CSS"
+    ],
+    "links": {
+      "website": "https://github.com/OmkarMhatre007"
+    }
+  },
+  {
+    "username": "calibaba276",
+    "name": "Caleb Babatunde",
+    "role": "Computer Engineering Student - Data Science/AI/ML",
+    "university": "Covenant University",
+    "github": "calibaba276",
+    "bio": "I like data, models and clean pipelines",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "Data Science"
+    ],
+    "links": {
+      "linkedin": "https://linkedin.com/in/caleb-babatunde"
+    }
+  },
+  {
+    "username": "turjoc120",
+    "name": "Turjo Chowdhury",
+    "role": "Student, Javascript enthusiast - Open Source Contributor",
+    "university": "National University of Bangladesh",
+    "github": "turjoc120",
+    "bio": "Rocking the code and jamming to Metallica!",
+    "tags": [
+      "Golang",
+      "React",
+      "Javascript",
+      "LeetCoder"
+    ],
+    "links": {
+      "website": "https://turjoc.netlify.app"
+    }
+  },
+  {
+    "username": "paul-chukwuemeka",
+    "name": "Paul Chukwuemeka",
+    "role": "CS Student, Fullstack Developer, and Open Source Enthusiast",
+    "university": "university of the people",
+    "github": "paul-chukwuemeka",
+    "bio": "I am a Computer Science student at the University of the People, passionate about web development and open source contributions. I enjoy building scalable web applications and exploring new technologies.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "NextJs",
+      "React",
+      "NodeJs",
+      "Open Source"
+    ],
+    "links": {
+      "website": "https://maskeddev.vercel.app/"
+    }
+  },
+  {
+    "username": "BrianYuyuan",
+    "name": "Brian Zhang",
+    "role": "ECE Student",
+    "university": "Rice University",
+    "github": "BrianYuyuan",
+    "bio": "A sophomore majoring in Electrical and Computer Engineering. Really love reading sci-fi, playing video games, and making terrariums.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "C"
+    ],
+    "links": {
+      "github": "https://github.com/BrianYuyuan"
+    }
+  },
+  {
+    "username": "joseandresvargas",
+    "name": "Jose Vargas",
+    "role": "CS Recent Graduate - Noob Open Source Contributor",
+    "university": "Costa Rica Institute of Technology",
+    "github": "JoseAndresVargas",
+    "bio": "I like Software, problem solving and sports",
+    "tags": [
+      "Python",
+      "Java",
+      "C",
+      "Android",
+      "Low-level Programming"
+    ],
+    "links": {
+      "website": "https://github.com/JoseAndresVargas"
+    }
+  },
+  {
+    "username": "shania-prin",
+    "name": "Bibi Shania Tinkouree",
+    "role": "Software Engineering Student",
+    "university": "African Leadership College of Higher Education",
+    "github": "shania-prin",
+    "bio": "I like coding.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "HTML"
+    ],
+    "links": {
+      "website": "https://shania.com"
+    }
+  },
+  {
+    "username": "shuiioa",
+    "name": "Sergio Ulloa",
+    "role": "CS Student, ML enthusiast - Noob Open Source Contributor",
+    "university": "Higher Technological Institute of Jalisco",
+    "github": "shuiioa",
+    "bio": "I like Astronomy, Software and Coffee",
+    "tags": [
+      "Python",
+      "Java",
+      "Data Science",
+      "Machine Learning"
+    ],
+    "links": {
+      "website": "https://github.com/shuiioa"
+    }
+  },
+  {
+    "username": "konarksharma13",
+    "name": "Konark Sharma",
+    "role": "Technical Writer",
+    "university": "Sharda university",
+    "github": "konarksharma13",
+    "bio": "I'm a frontend developer who loves turning curious ideas into products and sharing the journey behind them. I write about React, AI, product thinking, and everything I learn while building.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "C++",
+      "TypeScript"
+    ],
+    "links": {
+      "website": "https://dev.to/konark_13"
+    }
+  },
+  {
+    "username": "halleygz",
+    "name": "Halleluya Mulugeta",
+    "role": "Fullstack dev",
+    "university": "AAU",
+    "github": "halleygz",
+    "bio": "Exploring new ways to have fun when writing code.",
+    "tags": [
+      "Python",
+      "TypeScript",
+      "Go"
+    ],
+    "links": {
+      "website": "https://halleygz.vercel.app/"
+    }
+  },
+  {
+    "username": "timrollins",
+    "name": "Okware Timothy",
+    "role": "Software engineering student, Fullstack developer, Love getting creative, playing games",
+    "university": "Makerere University",
+    "github": "timrollins",
+    "bio": " I build fully functional fullstack apps hala at me incase you got gits , I am building on my node js skills and venturing into machine learning",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "MLH",
+      "Gamer"
+    ],
+    "links": {
+      "email": "okware.tim@gmail.com"
+    }
+  },
+  {
+    "username": "jhojanl",
+    "name": "Jhojan Lerma",
+    "role": "Software Developer | Full Stack Web Developer | UX/UI Designer",
+    "university": "Cibertec",
+    "github": "JhojanL",
+    "bio": "Hello! I'm Jhojan Lerma, a passionate software developer with a strong focus on full-stack web development and UX/UI design. I enjoy creating innovative solutions and user-friendly interfaces that enhance the digital experience. With a background in computer science and a keen eye for design, I strive to bridge the gap between functionality and aesthetics in every project I undertake.",
+    "tags": [
+      "Python",
+      "TypeScript",
+      "Golang",
+      "SQL"
+    ],
+    "links": {
+      "github": "https://github.com/JhojanL",
+      "linkedin": "https://www.linkedin.com/in/jhojan-andres-lerma-achoma/"
+    }
+  },
+  {
+    "username": "Eaahene",
+    "name": "Emmanuel Adjei Ahene",
+    "role": "EEE Student",
+    "university": "KNUST",
+    "github": "Eaahene",
+    "bio": "Final year EEE student with interest in backend dev, chip design & layout, Controls",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "CMOS",
+      "VLSI"
+    ],
+    "links": {
+      "website": "https://your-site.example.com"
+    }
+  },
+  {
+    "username": "sisayyigezu",
+    "name": "Sisay Yigezu",
+    "role": "CS Student, UAEU",
+    "university": "UAEU",
+    "github": "sisayyigezu",
+    "bio": "I like Coding",
+    "tags": [
+      "Python",
+      "javascript",
+      "React",
+      "ML"
+    ],
+    "links": {
+      "LinkedIn": "www.linkedin.com/in/sisay-yigezu"
+    }
+  },
+  {
+    "username": "Animesh403",
+    "name": "Animesh",
+    "role": "I am a CSE student and my primary focus is n8n",
+    "github": "Animesh403",
+    "bio": "I have built a workflow for reddit top reviews about the word you send it to a bot ",
+    "tags": [
+      "Python",
+      "C/C++"
+    ]
+  },
+  {
+    "username": "elenachanou",
+    "name": "Elena",
+    "role": "CS Student & Full Stack Developer",
+    "university": "Hellenic Open University",
+    "github": "ElenaChanou",
+    "bio": "Computer Science student building web applications and exploring AI, 3D technologies, and creative tools. Interested in combining technology with design, and real-world problem solving.",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Golang"
+    ],
+    "links": {
+      "website": "https://github.com/ElenaChanou"
+    }
+  },
+  {
+    "username": "thatsameerkashif",
+    "name": "Muhammad Sameer",
+    "role": "DevOps Student, Singer",
+    "university": "University of Southern Punjab",
+    "github": "thatsameerkashif",
+    "bio": "I write and produce songs, am currently learning Cloud DevOps tools",
+    "tags": [
+      "Python",
+      "Docker",
+      "AWS"
+    ],
+    "links": {
+      "website": "https://your-site.example.com"
+    }
+  },
+  {
+    "username": "irenemargherita",
+    "name": "Carol Gudumotu",
+    "role": "Software Developer",
+    "university": "California State University, Long Beach",
+    "github": "IreneMargherita",
+    "bio": "I like Stats, Software and Skittles",
+    "tags": [
+      "Python",
+      "AI",
+      "Machine Learning"
+    ],
+    "links": {
+      "website": "https://irenemargherita.github.io"
+    }
+  },
+  {
+    "username": "Lux-Spawne",
+    "name": "Keri G",
+    "role": "Networking and Systems Admin: Cybersecurity",
+    "university": "N/A",
+    "github": "Lux-Spawne",
+    "bio": "Baby cybersecurity dweeb learning new things",
+    "tags": [
+      "Python",
+      "AI",
+      "Cybersecurity"
+    ],
+    "links": {
+      "website": "N/A"
+    }
+  },
+  {
+    "username": "moosa-natiezen",
+    "name": "Muhammad Moosa Qureshi",
+    "role": "CS Student",
+    "university": "Dokuz Eylul University",
+    "github": "Moosa-natiezen",
+    "bio": "ML and AI enthusiast, currently exploring the world of deep learning and computer vision. Passionate about building innovative solutions and contributing to open-source projects.",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "Computer Vision",
+      "Deep Learning",
+      "RAGs"
+    ],
+    "links": {
+      "website": "https://github.com/Moosa-natiezen"
+    }
+  },
+  {
+    "username": "rameen21-ui",
+    "name": "Rameen Muhammad Iqbal",
+    "role": "Computer Science Student",
+    "github": "Rameen21-ui",
+    "bio": "A Computer Science student exploring artificial intelligence, quantum computing, and technology. Currently learning, building projects, and making my way into the open-source world one contribution at a time.",
+    "tags": [
+      "Python",
+      "C++",
+      "Artificial Intelligence",
+      "Quantum Computing"
+    ],
+    "links": {
+      "website": ""
+    }
+  },
+  {
+    "username": "ANKITHDEEGOJU",
+    "name": "Ankith Deegoju",
+    "role": "CS Research Scholar ",
+    "github": "ANKITHDEEGOJU",
+    "bio": "I am interested in understanding how businesses and how they are solving problems and earning money. ",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "links": {}
+  },
+  {
+    "username": "akattri",
+    "name": "Akash",
+    "role": "CS Student, Linux and OpenSource",
+    "github": "akattri",
+    "bio": "Linux user into systems, DevOps, and low-level stuff. Learning C, C++, and Python",
+    "tags": [
+      "Python",
+      "C",
+      "C++",
+      "DevOps"
+    ]
+  },
+  {
+    "username": "HAFSAH-SAEED",
+    "name": "Hafsah Saeed",
+    "role": "Computer Engineering Student | AI & Robotics Enthusiast",
+    "github": "HAFSAH-SAEED",
+    "bio": "Computer Engineering student passionate about Artificial Intelligence, Robotics, Computer Vision, and Embedded Systems. Currently learning Machine Learning, OpenCV, and building real-world AI projects.",
+    "tags": [
+      "Python",
+      "AI",
+      "Robotics",
+      "Computer Vision",
+      "Machine Learning"
+    ],
+    "links": {
+      "website": "https://github.com/HAFSAH-SAEED"
+    }
+  },
+  {
+    "username": "nahid-nhb",
+    "name": "Md Nahid Hassan Bhuiyan",
+    "role": "Full-Stack Developer",
+    "university": "Cumilla, Bangladesh",
+    "github": "Nahid-NHB",
+    "bio": "Building with TypeScript, Next.js, and AI agents. Always tinkering with something new.",
+    "tags": [
+      "TypeScript",
+      "Next.js",
+      "AI"
+    ],
+    "links": {
+      "website": "https://leafy-longma-3a9de0.netlify.app/"
+    }
+  },
+  {
+    "username": "JamezM546",
+    "name": "James Mullins",
+    "role": "CS Graduate going for Web Dev!",
+    "university": "NJIT",
+    "github": "JamezM546",
+    "bio": "I love working with JavaScript!! Currently learning React and TypeScript!",
+    "tags": [
+      "C++",
+      "Python",
+      "JavaScript",
+      "ChillCoder"
+    ],
+    "links": {
+      "website": "https://github.com/JamezM546"
+    }
+  },
+  {
+    "username": "nourabouzeid",
+    "name": "Nour Abouzeid",
+    "role": "Computer Engineering Fresh Grad | Backend enthusiast",
+    "university": "Cairo university",
+    "github": "nourabouzeid",
+    "bio": "Big fan of databases and anything backend or systems.",
+    "tags": [
+      "C++",
+      "JavaScript",
+      "Python"
+    ],
+    "links": {
+      "website": "https://github.com/nourabouzeid"
+    }
+  },
+  {
+    "username": "a-y-u-s-h-29",
+    "name": "Ayush Sharma",
+    "role": "Full Stack Developer",
+    "university": "Rd Engineering College",
+    "github": "A-y-u-s-h-29",
+    "bio": "Passionate Full Stack Developer building modern web applications with React, Next.js, Node.js, and AI. I enjoy creating clean UI/UX and solving real-world problems.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "React",
+      "Next.js"
+    ],
+    "socials": {
+      "website": "https://ayush-sharma-portfolio.netlify.app"
+    }
+  },
+  {
+    "username": "amondi014",
+    "name": "Edith Amondi",
+    "role": "Software Engineering Student",
+    "university": "African Leadership College of Higher Education",
+    "github": "amondi014",
+    "bio": "I like coding.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "Rust"
+    ],
+    "links": {
+      "website": "https://edith.com"
+    }
+  },
+  {
+    "username": "amrufai",
+    "name": "Almansur Muhammad Rufai",
+    "role": "Front-end & Python Developer",
+    "university": "Ahmadu Bello University",
+    "github": "amrufai",
+    "bio": "Building full-stack web applications and exploring machine learning models for power load forecasting.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "React",
+      "Machine Learning"
+    ],
+    "links": {
+      "website": "https://amrufai.github.io/"
+    }
+  },
+  {
+    "username": "anonymousminh",
+    "name": "Minh Le",
+    "role": "Data Science student",
+    "university": "University of Utah",
+    "github": "anonymousminh",
+    "bio": "Passionate about AI/ML, doing research, and building cool things",
+    "tags": [
+      "Python",
+      "C++",
+      "Machine Learning",
+      "Applied AI"
+    ],
+    "links": {
+      "website": "https://minhanhle.vercel.app",
+      "linkedin": "https://www.linkedin.com/in/minhle7802/"
+    }
+  },
+  {
+    "username": "Di49v",
+    "name": "Divleen Kaur",
+    "role": "B.Tech CSE Student, AI & Cybersecurity Enthusiast",
+    "university": "Guru Nanak Dev University",
+    "github": "Di49v",
+    "bio": "Building multi-agent AI platforms, cross-platform apps, and studying network defense.",
+    "tags": [
+      "C++",
+      "Python",
+      "Flutter",
+      "LangChain",
+      "Cybersecurity"
+    ],
+    "links": {
+      "website": "https://github.com/Di49v"
+    }
+  },
+  {
+    "username": "Godwynkaka",
+    "name": "Godwin Nyamador",
+    "role": "CS & Engineering Student, Stats enthusiast - Noob Open Source Contributor",
+    "university": "University of Mines and Technology",
+    "github": "Godwynkaka",
+    "bio": "I like Math, Linux and Milk",
+    "tags": [
+      "Python",
+      "Linux",
+      "Data Science"
+    ],
+    "links": {
+      "website": "https://360datasystems.net"
+    }
+  },
+  {
+    "username": "h3rm1tx",
+    "name": "H3RM1T",
+    "role": "Cybersecurity & Systems Engineer",
+    "university": "Independent Researcher",
+    "github": "h3rm1tx",
+    "bio": "Cybersecurity enthusiast and systems engineer focused on Linux, Rust, operating systems, and open-source software. Currently competing in CTFs and contributing to projects including rust-lang/rust, Zed, and rust-clippy.",
+    "tags": [
+      "Rust",
+      "Linux",
+      "Cybersecurity",
+      "Python",
+      "JavaScript",
+      "Systems Programming",
+      "CTF",
+      "Open Source"
+    ],
+    "links": {
+      "github": "https://github.com/h3rm1tx"
+    }
+  },
+  {
+    "username": "l3viath4n-365",
+    "name": "Michael Oji",
+    "role": "Full-stack Deveveloper & Cybersecurity Enthusiast",
+    "university": "Gregory University, Abia State, Nigeria",
+    "github": "l3viath4n-365",
+    "bio": "Analytical and detail-oriented developer with a background in Biochemistry, currently specializing in Full-Stack Web Development and Cybersecurity. Proficient in building responsive front-end interfaces and secure back-end systems. Founder of The L3viath4n Brand, a streaming and technical brand focused on high-performance mobile hardware and competitive strategy",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Postgres-Express-EJS-Node Stack",
+      "Cybersecurity"
+    ],
+    "links": {
+      "website": null
+    }
+  },
+  {
+    "username": "mobeen0119",
+    "name": "Mobeen Ahmed",
+    "role": "Student, OS Dev, Full Stack Engineering",
+    "university": "NUML",
+    "github": "Mobeen0119",
+    "bio": "Software Engineering Student",
+    "tags": [
+      "C",
+      "React",
+      "Node",
+      "C++",
+      "JS"
+    ],
+    "links": {
+      "website": "https://portfolio-mobeen.netlify.app/home"
+    }
+  },
+  {
+    "username": "ndanu-nzuki",
+    "name": "Laurine Ndanu Nzuki",
+    "role": "Full-stack dev",
+    "university": "Softmarket Ke.",
+    "github": "Ndanu-Nzuki",
+    "bio": "One or two sentences about what you build, what you're learning, or what you're into.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "A.I./M.L."
+    ],
+    "links": {
+      "website": "https://bg-portfolio-phi.vercel.app/"
+    }
+  },
+  {
+    "username": "SinCosMay",
+    "name": "Tanmay Rajpal",
+    "role": "Software Engineer | CS Student",
+    "university": "IIITDMJ",
+    "github": "SinCosMay",
+    "bio": "trying to get better 1% everyday",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "Backend",
+      "Docker",
+      "PostgreSQL"
+    ],
+    "links": {
+      "website": "https://signal-archive-teal.vercel.app/"
+    }
+  },
+  {
+    "username": "xlceor",
+    "name": "Carlos Osorio",
+    "github": "xlceor",
+    "bio": "Hardware-Software Alchemist & Systems Builder. I bend physical reality to my will using C++, Python, and ESP32s. Currently turning a childhood dream of building Iron Man's suit into a highly optimized, slightly dangerous career path.",
+    "tags": [
+      "Embedded Systems",
+      "Robotics",
+      "Hardware-Software",
+      "Python Automation",
+      "Full-Stack"
+    ]
+  },
+  {
+    "username": "Doremon-tech-svg",
+    "name": "Divyank Richhariya",
+    "role": "I am a computor science student. I love building cool stuff.",
+    "university": "KIET GROUP OF INSTITUTIONS",
+    "github": "Doremon-tech-svg",
+    "bio": "I love to code and build stuff. Currently working with node js.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "react"
+    ],
+    "links": {
+      "website": "https://divyankportfolio.vercel.app/"
+    }
+  },
+  {
+    "username": "maryum439",
+    "name": "Maryum Mustafa",
+    "role": "studying CS at uni",
+    "university": "LUMS",
+    "github": "maryum439",
+    "bio": "Love cs and chocolate",
+    "tags": [
+      "Python",
+      "C++"
+    ],
+    "links": {
+      "website": ""
+    }
+  },
+  {
+    "username": "saroj-paudel",
+    "name": "Saroj Paudel",
+    "role": "Backend Enthusiast",
+    "university": "Tribhuvan University, Nepal",
+    "github": "saroj-paudel",
+    "bio": "I build apps for real humans.",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Next.js"
+    ],
+    "links": {
+      "website": "https://sarojpaudel.name.np"
+    }
+  },
+  {
+    "username": "mdmahmudul34",
+    "name": "Md. Mahmudul Kabir Himel",
+    "role": "CS Student · ML & Cybersecurity Researcher (but really just a Tech/Cyber nerd) - Noob Open Source Contributor",
+    "university": "BRAC University",
+    "github": "mdmahmudul34",
+    "bio": "Curious about everything, I wanna make things easier for others and add a bit of fun to a life that's already complicated enough. I like nature, clouds, rain, animals, and biryani.",
+    "tags": [
+      "Python",
+      "Java",
+      "AI/ML",
+      "ICS Security",
+      "Cryptography",
+      "Open Source"
+    ],
+    "links": {
+      "github": "https://github.com/mdmahmudul34",
+      "linkedin": "https://www.linkedin.com/in/mdmahmudul34",
+      "researchgate": "https://www.researchgate.net/profile/Md-Mahmudul-Kabir-Himel",
+      "webofscience": "https://www.webofscience.com/wos/author/record/QUT-3210-2026",
+      "website": "https://mdmahmudul34.github.io/personal_homepage/"
+    }
+  },
+  {
+    "username": "arushii17",
+    "name": "Arushi Bhat",
+    "role": "CS Graduate",
+    "university": "The NorthCap University",
+    "github": "arushii17",
+    "bio": "A passionate learner and a software engineer with a keen interest in AI and Data Science.",
+    "tags": [
+      "Python",
+      "Data Science",
+      "AI / ML",
+      "Software Engineering"
+    ],
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/arushi-bhat-579197287/",
+      "website": "https://github.com/arushii17"
+    }
+  },
+  {
+    "username": "jennieosa",
+    "name": "jennieosa",
+    "role": "CS Graduate",
+    "university": "University of Sheffield",
+    "github": "jennieosa",
+    "bio": "Interested in Full-Stack Development",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "Java",
+      "React",
+      "Kotlin"
+    ],
+    "links": {
+      "website": "https://github.com/jennieosa"
+    }
+  },
+  {
+    "username": "aktrinh3",
+    "name": "Kirsten Trinh",
+    "role": "MS Software Engineering Student",
+    "university": "Indiana Unveristy - Indianapolis",
+    "github": "aktrinh3",
+    "bio": "I have a BS in Biology from Purdue University in 2023. After working in healthcare for 2 years, I decided to return to school for to complete a MS in Software Engineering after discovering my love for technology.",
+    "tags": [
+      "Python",
+      "C++",
+      "Java"
+    ],
+    "links": {
+      "website": "https://aktrinh3.github.io"
+    }
+  },
+  {
+    "username": "cby437",
+    "name": "Boyuan Chen",
+    "role": "Mathematics Student",
+    "university": "Harvard University",
+    "github": "cby437",
+    "bio": "Learning DSA in Python, DevOps. Interested in Mechanistic Interpretability.",
+    "tags": [
+      "AI",
+      "Machine Learning",
+      "Python",
+      "C",
+      "C++",
+      "DevOps"
+    ]
+  },
+  {
+    "username": "I1EA",
+    "name": "Imane El Ayadi",
+    "role": "IT Developer and Chemistry Student",
+    "bio": "A Moroccan tech enthusiast with a background in chemistry and IT, passionate about building tools that help farmers and communities.",
+    "github": "I1EA",
+    "tags": [
+      "Python",
+      "Streamlit",
+      "Chemist",
+      "Data",
+      "Morocco"
+    ],
+    "image": ""
+  },
+  {
+    "username": "techplanshetyapps",
+    "name": "Nataliia Rudnikova",
+    "role": "Software Engineer / Data Scientist",
+    "university": "Technical University Kyiv polytechnic Institute",
+    "github": "techplanshetyapps",
+    "bio": "Learning open source and building things in the cloud.",
+    "tags": [
+      "Cloud",
+      "Linux",
+      "Open Source"
+    ],
+    "links": {
+      "website": "https://github.com/techplanshetyapps"
+    }
+  },
+  {
+    "username": "Wmugacha",
+    "name": "Wilfred Mugacha",
+    "role": "Backend Developer",
+    "university": "China Agricultural University",
+    "github": "Wmugacha",
+    "bio": "Backend Engineer specializing in Python, Django, scalable RESTful APIs, and asynchronous architectures.",
+    "tags": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Docker",
+      "Redis",
+      "Celery"
+    ],
+    "links": {
+      "website": "https://github.com/Wmugacha"
+    }
+  },
+  {
+    "username": "chandrakumar1",
+    "name": "Chandrakumar Sharma",
+    "role": "CSE Student, Entrepreneur, and open source enthusiast",
+    "university": "Bangalore Institute of technology",
+    "github": "chandrakumar1",
+    "bio": "CSE student exploring programming, web development, and open source. Always learning, building, and trying new things.",
+    "tags": [
+      "Python",
+      "JavaScript",
+      "html",
+      "css",
+      "C++"
+    ],
+    "links": {
+      "website": "https://github.com/chandrakumar1"
+    }
+  },
+  {
+    "username": "KosiChinaza",
+    "name": "Kosisochukwu Ugwu",
+    "role": "Software Developer - Blockchain developer, Frontend developer",
+    "github": "KosiChinaza",
+    "bio": "I am ethusiastic software developer, trying out new things and focused on creating innovations that offer real life solutions",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Solidity",
+      "ether.js"
+    ],
+    "links": {
+      "website": "https://kosichinaza.dev"
+    }
+  },
+  {
+    "username": "mwakai",
+    "name": "Alvin Mwakai",
+    "role": "Software engineer, Artisan",
+    "university": "JKUAT",
+    "github": "Mwakai",
+    "bio": "I like Software",
+    "tags": [
+      "JavaScript",
+      "React",
+      "Laravel"
+    ],
+    "links": {
+      "website": "https://alvinmwakai.com"
+    }
+  }
+]
